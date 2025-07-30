@@ -1,0 +1,48 @@
+/* SettingsPage.css */
+.settings-container {
+  display: flex;
+  height: 100vh;
+  background-color: #2c2c2c;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.settings-sidebar {
+  width: 250px;
+  background-color: #3a3a3a;
+  padding: 20px;
+  border-right: 1px solid #4f4e4e;
+}
+
+.settings-sidebar h2 {
+  color: #63b3ed;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.settings-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.settings-sidebar li {
+  margin-bottom: 12px;
+}
+
+.settings-sidebar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.settings-sidebar a:hover {
+  color: #63b3ed;
+}
+
+.settings-content {
+  flex: 1;
+  padding: 30px;
+  background-color: #4f4e4e;
+  overflow-y: auto;
+}
