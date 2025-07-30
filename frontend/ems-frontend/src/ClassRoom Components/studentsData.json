@@ -1,0 +1,33 @@
+{
+  "students": [
+    { "id": 1, "name": "Nawal Fatima", "department": "CS-21", "seatingPlaceNo": 1 },
+    { "id": 2, "name": "CE Student 1", "department": "CE-22", "seatingPlaceNo": 2 },
+    { "id": 3, "name": "AI Student 1", "department": "AI-24", "seatingPlaceNo": 3 },
+    { "id": 4, "name": "CE Student 2", "department": "CE-23", "seatingPlaceNo": 4 },
+    { "id": 5, "name": "Saman Khalil", "department": "CS-22", "seatingPlaceNo": 5 },
+    { "id": 6, "name": "CE Student 3", "department": "CE-24", "seatingPlaceNo": 6 },
+    { "id": 7, "name": "Rija Faisal Raza", "department": "CS-23", "seatingPlaceNo": 7 },
+    { "id": 8, "name": "CE Student 4", "department": "CE-21", "seatingPlaceNo": 8 },
+    { "id": 9, "name": "Zahraha Maajed", "department": "CS-24", "seatingPlaceNo": 9 },
+    { "id": 10, "name": "CE Student 1", "department": "CE-22", "seatingPlaceNo": 10 },
+    { "id": 11, "name": "Rida Fatima Rana", "department": "CS-21", "seatingPlaceNo": 11 },
+    { "id": 12, "name": "CE Student 2", "department": "CE-23", "seatingPlaceNo": 12 },
+    { "id": 13, "name": "Aiza Tariq", "department": "CS-22", "seatingPlaceNo": 13 },
+    { "id": 14, "name": "CE Student 3", "department": "CE-24", "seatingPlaceNo": 14 },
+    { "id": 15, "name": "Fatima Raza", "department": "CS-23", "seatingPlaceNo": 15 },
+    { "id": 16, "name": "CE Student 4", "department": "CE-21", "seatingPlaceNo": 16 },
+    { "id": 17, "name": "Iqra Khan", "department": "CS-24", "seatingPlaceNo": 17 },
+    { "id": 18, "name": "CE Student 1", "department": "CE-22", "seatingPlaceNo": 18 },
+    { "id": 19, "name": "Qudsia Batool", "department": "CS-21", "seatingPlaceNo": 19 },
+    { "id": 20, "name": "CE Student 2", "department": "CE-23", "seatingPlaceNo": 20 },
+    { "id": 21, "name": "Esha Riaz", "department": "CS-22", "seatingPlaceNo": 21 },
+    { "id": 22, "name": "CE Student 3", "department": "CE-24", "seatingPlaceNo": 22 },
+    { "id": 23, "name": "Mubashra Anees", "department": "CS-23", "seatingPlaceNo": 23 },
+    { "id": 24, "name": "CE Student 4", "department": "CE-21", "seatingPlaceNo": 24 },
+    { "id": 25, "name": "Zoha Anny", "department": "CS-24", "seatingPlaceNo": 25 },
+    { "id": 26, "name": "CE Student 1", "department": "CE-22", "seatingPlaceNo": 26 },
+    { "id": 27, "name": "Maham Bashir", "department": "CS-21", "seatingPlaceNo": 27 },
+    { "id": 28, "name": "CE Student 2", "department": "CE-23", "seatingPlaceNo": 28 },
+    { "id": 29, "name": "CE Student 3", "department": "CE-24", "seatingPlaceNo": 29 }
+  ]
+}
