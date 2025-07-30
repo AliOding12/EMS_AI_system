@@ -1,0 +1,58 @@
+.admin-settings {
+  background-color: #3a3a3a;
+  padding: 25px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  max-width: 700px;
+  margin: auto;
+}
+
+.admin-settings h3 {
+  color: #63b3ed;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.admin-settings form {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-settings label {
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.admin-settings input,
+.admin-settings textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: none;
+  background-color: #5e5e5e;
+  color: white;
+  font-size: 14px;
+  width: 100%;
+}
+
+.admin-settings textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.admin-settings button {
+  margin-top: 20px;
+  padding: 12px;
+  border: none;
+  background-color: #3182ce;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-settings button:hover {
+  background-color: #2b6cb0;
+}

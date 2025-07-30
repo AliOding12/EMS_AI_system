@@ -1,0 +1,21 @@
+ul{
+
+ list-style:lower-greek;
+ padding: 3px;
+ font-size: 20px;
+ flex-wrap: wrap;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 3px;
+    color: aliceblue;
+    
+}
+.nav-container{
+    font: 2em ;
+    display:flex;
+    flex-direction: column;
+    
+}
+.ul:li:link{
+color: aliceblue;
+text-decoration-color: aliceblue;
+}

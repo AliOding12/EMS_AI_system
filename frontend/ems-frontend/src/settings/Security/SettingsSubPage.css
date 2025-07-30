@@ -1,0 +1,46 @@
+.settings-subpage {
+  color: white;
+  background-color: #4f4e4e;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.settings-subpage h2 {
+  color: #63b3ed;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.setting-item {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.setting-item label {
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.setting-item input,
+.setting-item select,
+.setting-item button {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background-color: #fff;
+  color: #333;
+  font-size: 14px;
+}
+
+.setting-item button {
+  margin-top: 10px;
+  background-color: #63b3ed;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.setting-item button:hover {
+  background-color: #4299e1;
+}

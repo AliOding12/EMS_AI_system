@@ -1,0 +1,58 @@
+.student-list-container {
+  background-color: #4f4e4e;
+  color: white;
+  padding: 2rem;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.filter-bar {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.filter-bar input,
+.filter-bar select {
+  padding: 0.5rem 1rem;
+  background-color: #666;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  width: 220px;
+}
+::placeholder{
+    color:white;
+    opacity: 0.5;
+}
+
+.filter-bar button {
+  background-color: #304cfd;
+  color: white;
+  border: 1px solid #304cfd;
+  padding: 0.5rem 1.1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.filter-bar button:hover{
+    background-color: #4058f5;
+    border: 1px solid #4058f5;
+}
+.semester-block {
+  margin-bottom: 2.5rem;
+}
+
+.semester-block h3 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.student-card {
+  background-color: #606060;
+  padding: 0.8rem 1.2rem;
+  margin-bottom: 0.6rem;
+  border-radius: 6px;
+  line-height: 1.6;
+}
