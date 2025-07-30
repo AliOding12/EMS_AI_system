@@ -15,7 +15,7 @@ return(
                 <li><Link to="students">Students</Link></li>
                 <li><Link to="instructors">Instructors</Link></li>
                 <li><Link to="settings">Settings</Link></li>
-                <li><Link to="#">ClassRooms</Link></li>
+                <li><Link to="classroomselect">ClassRooms</Link></li>
               </ul>
         </nav>
     </>

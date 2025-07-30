@@ -1,7 +1,3 @@
-
-
-
-
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import StudentsPage from "./students/sutdents_page";
@@ -17,21 +13,22 @@ import AccountsSettings from "./settings/Security/AccountSettings";
 import NotificationsSettings from "./settings/Security/NotificationSettings";
 import ThemeSettings from "./settings/Theme/ThemeSettings";
 import Layout from "./layout/layout";
+import ClassRoom from "./ClassRoom Components/ClassRoom";
+import ClassroomSelector from "./ClassRoom Components/ClassRoomSelector";
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />} />
-
         <Route path="/students" element={<StudentsPage />} />
         <Route path="/department/:deptSlug" element={<StudentList />} />
-
         <Route path="/instructors" element={<InstructorsPage />} />
         <Route
           path="/department/:deptSlug/instructors"
           element={<InstructorList />}
         />
-
+        <Route path="/classrooms" element={<ClassRoom/>}/>
+        <Route path="/classroomselect" element={<ClassroomSelector/>}/>
         <Route path="/settings" element={<SettingsPage />}>
           <Route path="admin" element={<AdminSettings />} />
           <Route path="logs" element={<Logs />} />

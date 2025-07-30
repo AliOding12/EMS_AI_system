@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import ClassRoom from "./Classroom";
+import ClassRoom from "./ClassRoom";
 import "./style for ClassroomSelector.css";
 
 
